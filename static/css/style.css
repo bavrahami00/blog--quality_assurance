@@ -1,3 +1,32 @@
 html {
-  background-color: green;
+  background-color: #2bc6ff;
+  font-family: verdana;
+}
+
+.header {
+  text-align: right;
+}
+
+.contents {
+  text-align: center;
+}
+
+.error {
+  color: #fc007d;
+}
+
+a {
+  text-decoration: none;
+  color: #ad56ff;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  padding: 0px;
+}
+
+h2{
+  font-family: cursive;
 }

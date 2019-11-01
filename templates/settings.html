@@ -12,11 +12,13 @@
         <input type="submit" value="Logout">
     </form>
 </div>
-<div align="center">
+<div class="contents">
     <form action="{{ url_for('changesettings', userid = userid) }}" id="editorMode">
+      <div class="error">
         {% if msg %}
         {{ msg }}
         {% endif %}
+      </div>
         <h3>Change Your Display Name</h3>
         Display Name: <input type="text" name="newdisplayname" value="{{displayname}}">
         <br>

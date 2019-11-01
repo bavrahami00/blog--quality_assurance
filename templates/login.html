@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 {% block title %}Login{% endblock %}
 {% block body %}
-<div align="center">
+<div class="contents">
     <h2> Welcome! </h2>
-    <br> {{ error }} <br> <br>
+    <div class="error">
+      <br> {{ error }} <br> <br>
+    </div>
     Login! <br> <br>
     <!-- username and password form -->
     <form action="/login">
