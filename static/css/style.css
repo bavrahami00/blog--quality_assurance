@@ -17,7 +17,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #ad56ff;
+  color: #8245ff;
 }
 
 ul {
@@ -29,4 +29,49 @@ ul {
 
 h2{
   font-family: cursive;
+}
+
+.column {
+  float: left;
+  height: 200px;
+  width: 50%;
+}
+
+#left_col {
+  display: inline-block;
+  text-align: left;
+}
+
+#right_col {
+  box-sizing: border-box;
+  border-left: 1px solid black;
+}
+
+footer {
+  background-color: #79dbff;
+  text-align: right;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  margin-left: -16px;
+  width: 100%;
+  color: #0053dc;
+}
+
+#stats {
+  font-style: italic;
+  color: #414c5c;
+}
+
+input[type=submit] {
+  border: none;
+  border-radius: 2px;
+  background-color: #00fff0;
+  cursor: pointer;
+}
+
+input[type=submit]:active {
+  background-color: #3682f0;
 }

@@ -6,19 +6,25 @@
     <div class="error">
       <br> {{ error }} <br> <br>
     </div>
-    Login! <br> <br>
-    <!-- username and password form -->
-    <form action="/login">
-        Enter your username: <input type="text" name="username"> <br>
-        Enter your password: <input type="password" name="password"> <br> <br>
-        <input type="submit">
-    </form>
-    <br> <br>
-    Don't have an account?
-    <br> <br>
-    <form action="/signup">
-        <input type="submit" value="Register Now!">
-    </form>
+    <div class="row">
+      <div class="column" id="left_col">
+        <br> Login! <br> <br>
+        <!-- username and password form -->
+        <form action="/login">
+            Enter your username: <input type="text" name="username"> <br>
+            Enter your password: <input type="password" name="password"> <br> <br> <br>
+            <input type="submit">
+        </form>
+        <br> <br>
+      </div>
+      <div class="column" id="right_col">
+        <br> Don't have an account?
+        <br> <br>
+        <form action="/signup">
+            <input type="submit" value="Register Now!">
+        </form>
+      </div>
+    </div>
     <br> <br>
 </div>
 {% endblock %}
