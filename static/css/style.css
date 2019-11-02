@@ -68,10 +68,15 @@ footer {
 input[type=submit] {
   border: none;
   border-radius: 2px;
-  background-color: #00fff0;
+  background-color: #90fff6;
   cursor: pointer;
 }
 
 input[type=submit]:active {
   background-color: #3682f0;
+}
+
+input[type=text], input[type=password], textarea {
+  border: 1px solid lightblue;
+  background-color: #9deeff;
 }
